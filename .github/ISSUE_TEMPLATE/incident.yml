@@ -61,7 +61,7 @@ body:
         - label: I agree to follow this project's Code of Conduct
           required: true
           
-          - type: textarea
+- type: textarea
   attributes:
     label: Operating System
     description: What operating system are you using?
