@@ -33,7 +33,7 @@ _If applicable, add screenshots to help explain your problem.
 
 
 **Clients affected**
- _e.g Web(Chrome, Brave, Explorer, Mobile (Android, iOS) or Desktop (Windows, MacOS).
+ _e.g Web(Chrome v102.0, Brave v1.40.105), Mobile (Android, iOS) or Desktop (Windows, MacOS).
 
 
 
