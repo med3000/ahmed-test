@@ -11,16 +11,19 @@ assignees: ''
 _A clear and concise description of what the incident is.
 
 
+
 **To Reproduce**
-_Steps to reproduce the behavior:
+_Steps to reproduce the behaviour:
+
 
 
 **Safe address**
-_Enter Safe address affeected by this incident, if more than one please create a problem ticket.
+_Enter Safe address affected by this incident, if more than one please create a problem ticket.
+
 
 
 **Transaction ID**
-_if applicable transaction or exploer links
+_if applicable transaction or explorer links
 
 
 
@@ -28,8 +31,10 @@ _if applicable transaction or exploer links
 _If applicable, add screenshots to help explain your problem.
 
 
+
 **Clients affected**
  _e.g Web(Chrome, Brave, Explorer, Mobile (Android, iOS) or Desktop (Windows, MacOS).
+
 
 
 **Additional context**
