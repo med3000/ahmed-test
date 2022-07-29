@@ -1,38 +1,36 @@
 ---
-name: Bug report
-about: Create a report to help us improve
+name: Incident report
+about: Open an incident report here
 title: ''
-labels: ''
+labels: 'incident'
 assignees: ''
 
 ---
 
-**Describe the bug**
-A clear and concise description of what the bug is.
+**Describe the incident**
+_A clear and concise description of what the incident is.
+
 
 **To Reproduce**
-Steps to reproduce the behavior:
-1. Go to '...'
-2. Click on '....'
-3. Scroll down to '....'
-4. See error
+_Steps to reproduce the behavior:
 
-**Expected behavior**
-A clear and concise description of what you expected to happen.
+
+**Safe address**
+_Enter Safe address affeected by this incident, if more than one please create a problem ticket.
+
+
+**Transaction ID**
+_if applicable transaction or exploer links
+
+
 
 **Screenshots**
-If applicable, add screenshots to help explain your problem.
+_If applicable, add screenshots to help explain your problem.
 
-**Desktop (please complete the following information):**
- - OS: [e.g. iOS]
- - Browser [e.g. chrome, safari]
- - Version [e.g. 22]
 
-**Smartphone (please complete the following information):**
- - Device: [e.g. iPhone6]
- - OS: [e.g. iOS8.1]
- - Browser [e.g. stock browser, safari]
- - Version [e.g. 22]
+**Clients affected**
+ _e.g Web(Chrome, Brave, Explorer, Mobile (Android, iOS) or Desktop (Windows, MacOS).
+
 
 **Additional context**
 Add any other context about the problem here.
