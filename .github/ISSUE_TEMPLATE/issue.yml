@@ -63,11 +63,11 @@ body:
       label: What issue are you experiencing?
       multiple: false
       options:
-        - Safe not loading
+        - Safe_loading issues
         - Token Missing completely / Not visible in the interface or service
         - Token Balance not up-to-date in the interface or service
-        - Transaction executuon issue
-        - Transaction missing / not visible in app or service
+        - Transaction_executuon issue
+        - Transaction_missing / not visible in app or service
         - Other
     validations:
       required: true
