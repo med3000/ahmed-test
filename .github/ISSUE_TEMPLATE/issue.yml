@@ -17,7 +17,7 @@ body:
   - type: input
     id: timedate
     attributes:
-      label: Time and Date this happend, or you first noticed
+      label: Time and date this happend, or you first noticed
       description: DD/MM/YYYY @ HH:MM:SS
     validations:
       required: true
@@ -50,7 +50,7 @@ body:
   - type: dropdown  
     id: token_type
     attributes:
-      label: Token type you are having an issue with
+      label: Token Type
       multiple: false
       options:
         - ERC20
@@ -58,7 +58,7 @@ body:
   - type: dropdown
     id: issue_type
     attributes:
-      label: What issue are you experiencing?
+      label: Issue Category
       multiple: false
       options:
         - Safe loading issues
