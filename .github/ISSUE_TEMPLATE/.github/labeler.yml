@@ -1,0 +1,21 @@
+# Add/remove 'critical' label if issue contains the words 'urgent' or 'critical'
+indexing:
+    - '(indexing)'
+    
+safe loading:
+    - '(safe loading)'
+    
+token value:
+    - '(toke value)'
+    
+tx execution:
+    - '(tx exectuion)'
+    
+tx missing:
+    - '(tx missing)'
+
+question:
+    - '(question)'
+    
+other:
+    - '(other)'
