@@ -1,6 +1,5 @@
 # Add/remove 'critical' label if issue contains the words 'urgent' or 'critical'
-Add:
 safe loading:
-    - '(safe loading)'
+    - '(safe loading|safe loading)'
 tranasaction missing:
-    - '(transaction missing)'
+    - '(transaction missing|transaction missing)'
