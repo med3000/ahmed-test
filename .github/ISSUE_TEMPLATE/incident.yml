@@ -4,9 +4,9 @@ title:
 labels: ["triage"]
 body:
   - type: markdown
-    attributes:
-      value: |
-        Thanks for taking the time to fill out this report!
+      attributes:
+        value: |
+          Thanks for taking the time to fill out this bug report!
   - type: textarea
     id: description
     attributes:
@@ -35,7 +35,7 @@ body:
         - Polygon
     validations:
       required: true
- - type: input
+  - type: input
     id: safe
     attributes:
       label: Safe Address
