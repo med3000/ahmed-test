@@ -1,13 +1,13 @@
 # Add/remove 'critical' label if issue contains the words 'urgent' or 'critical'
 safe_loading:
-    - '(Safe_loading)'
+    - '(Safe loading issues)'
 token_balance:
-    - '(Token Balance)'
+    - '(Token balance not up-to-date in the interface or service)'
 token_missing:
-    - '(Token missing)'
+    - '(Token missing completely / not visible in the interface or service)'
 tx_execution:
-    - '(Tranasaction execution issue)'
+    - '(Transaction executuon issue)'
 tx_missing:
-    - '(Tranasaction missing)'
+    - '(Transaction missing / not visible in app or service)'
 other:
     - '(Other)'
