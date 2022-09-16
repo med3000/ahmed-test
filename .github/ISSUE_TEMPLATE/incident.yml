@@ -1,47 +1,80 @@
-name: Bug Report
-description: File a bug report
-title: "[Bug]: "
-labels: ["triage", "token", "indexing"]
+name: Issues
+description: Open a ticket to report an issue
+title:
+labels: ["triage"]
 
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to fill out this bug report!
+        Thanks for taking the time to fill out this report!
   - type: textarea
-    id: what-happened
+    id: description
     attributes:
-      label: What happened?
+      label: Describe what happend
       description: Also tell us, what did you expect to happen?
-      placeholder: Tell us what you see!
-      value: "A bug happened!"
+    validations:
+      required: true
+   - type: input
+    id: timedate
+    attributes:
+      label: Time and Date this happend, or you first noticed
+      description: DD/MM/YYYY @ HH:MM:SS
     validations:
       required: true
   - type: dropdown
-    id: version
+    id: network
     attributes:
-      label: Version
-      description: What version of our software are you running?
-      options:
-        - 1.0.2 (Default)
-        - 1.0.3 (Edge)
-    validations:
-      required: true
-  - type: dropdown
-    id: browsers
-    attributes:
-      label: What browsers are you seeing the problem on?
+      label: Network
       multiple: true
+      description: What netowrk is this happening on
       options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
-  - type: textarea
-    id: logs
+        - Ethereum Mainnet
+        - Goerli
+        - Gnosis Chain
+        - BSC
+        - Polygon
+    validations:
+      required: true
+ - type: input
+    id: safe
     attributes:
-      label: Relevant log output
-      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      label: Safe Address
+      description: can be shared privately if preferred, reach out to our support team [here][https://gnosis-safe.io/app/welcome]
+      placeholder: ex. 0xbadda...
+  - type: input  
+      id: token
+      attributes:
+      label: Token Address
+      description: A particular token you are having an issue with
+      placeholder: ex. 0xbadda...
+   - type: dropdown  
+      id: token_type
+      attributes:
+      label: Token type you are having an issue with
+      multiple: false
+      options:
+        - ERC20
+        - ERC721
+  - type: dropdown
+    id: issue_type
+    attributes:
+      label: What issue are you experiencing?
+      multiple: false
+      options:
+        - Safe not loading
+        - Token Missing completely / Not visible in the interface or service
+        - Token Balance not up-to-date in the interface or service
+        - Transaction executuon issue
+        - Transaction missing / not visible in app or service
+        - Other
+    validations:
+      required: true
+  - type: textarea
+    id: tx_link
+    attributes:
+      label: Transactions
+      description: Please copy links to any transactions affected by this issue
       render: shell
   - type: checkboxes
     id: terms
