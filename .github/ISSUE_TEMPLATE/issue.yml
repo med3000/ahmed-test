@@ -1,6 +1,6 @@
-<!--
-issue_labeler_regex_version=1
---!>
+   <!--
+    issue_labeler_regex_version=1
+   --!>
 name: Issue
 description: Please complete this form to report your issue
 title: "[GitIssue]"
