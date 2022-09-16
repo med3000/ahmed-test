@@ -1,5 +1,5 @@
 # Add/remove 'critical' label if issue contains the words 'urgent' or 'critical'
-safe:
+safe_loading:
     - '(safe|safe)'
-tranasaction:
-    - '(transaction|transaction)'
+tranasaction_execution:
+    - '(transaction exectution)'
