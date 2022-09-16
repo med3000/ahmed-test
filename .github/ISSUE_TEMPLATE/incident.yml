@@ -1,6 +1,6 @@
-name: Missing Token
-description: File a report for a missing token (or balance not up to date)
-title: "[Missing Token] The following token is not up to date:"
+name: Issue
+description: Please complete this form to report your issue
+title: 
 labels: ["triage"]
 body:
   - type: markdown
