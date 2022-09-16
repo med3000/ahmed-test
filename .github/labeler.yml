@@ -1,5 +1,13 @@
 # Add/remove 'critical' label if issue contains the words 'urgent' or 'critical'
 safe_loading:
-    - '(Safe_loading|safe_loading)'
+    - '(Safe_loading)'
+token_balance:
+    - '(Token balance)'
+token_missing:
+    - '(Token missing)'
 tx_execution:
-    - '(tx_exeution|tx_missing)'
+    - '(Tranasaction execution)'
+tx_missing:
+    - '(Tranasaction missing)'
+other:
+    - '(Other)'
