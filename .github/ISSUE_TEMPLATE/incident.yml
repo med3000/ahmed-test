@@ -1,6 +1,6 @@
 name: Issues
 description: Open a ticket to report an issue
-title:
+title: [Bug]
 labels: ["triage"]
 body:
   - type: markdown
