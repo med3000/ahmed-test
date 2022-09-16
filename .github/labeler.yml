@@ -2,9 +2,9 @@
 safe_loading:
     - '(Safe_loading)'
 token_balance:
-    - '(Token balance)'
+    - '(Token Balance)'
 token_missing:
-    - '(Token missing)'
+    - '(Token Missing)'
 tx_execution:
     - '(Tranasaction execution)'
 tx_missing:
