@@ -1,11 +1,11 @@
-   <!--
-    issue_labeler_regex_version=1
-   --!>
 name: Issue
 description: Please complete this form to report your issue
 title: "[GitIssue]"
 labels: ["triage"]
 body:
+<!--
+ issue_labeler_regex_version=1
+--!>
   - type: markdown
     attributes:
       value: |
