@@ -2,11 +2,8 @@ name: Issues
 description: Open a ticket to report an issue
 title: [Bug]
 labels: ["triage"]
+
 body:
-  - type: markdown
-    attributes:
-      value: |
-       Thanks for taking the time to fill out this bug report!
   - type: textarea
     id: description
     attributes:
