@@ -1,9 +1,16 @@
 name: Bug Report
 description: File a bug report
 title: "[Bug]: "
-labels: ["bug", "triage"]
-assignees:
-  - octocat
+  type: dropdown
+  id: labels
+  multiple: false
+  attributes:
+    label: best descibes my issue
+    options: 
+      - tx missing
+      - safe not loading
+  assignees:
+
 body:
   - type: markdown
     attributes:
