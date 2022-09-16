@@ -2,7 +2,6 @@ name: Issues
 description: Open a ticket to report an issue
 title:
 labels: ["triage"]
-
 body:
   - type: markdown
     attributes:
