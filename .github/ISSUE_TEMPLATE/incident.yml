@@ -57,14 +57,14 @@ body:
     validations:
       required: true
   - type: input  
-     id: token
-     attributes:
+    id: token
+    attributes:
       label: Token Address
       description: A particular token you are having an issue with
       placeholder: ex. 0xbadda...
-   - type: dropdown  
-     id: token_type
-     attributes:
+  - type: dropdown  
+    id: token_type
+    attributes:
       label: Token type you are having an issue with
       multiple: false
       options:
