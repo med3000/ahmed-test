@@ -1,6 +1,6 @@
 name: Issue
 description: Please complete this form to report your issue
-title: 
+title: "[GitIssue]"
 labels: ["triage"]
 body:
   - type: markdown
